@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ClassMethodDemo
+{
+    class CustomerManager
+    {
+        public void Add(Customer customer)
+        {
+            Console.WriteLine($"{customer.Name} {customer.Surname} Eklendi. ");
+        }
+
+        public void Delete(Customer customer)   
+        {
+            Console.WriteLine($"{customer.Id} {customer.Name} {customer.Surname} Bankadan Silindi.");
+        }
+
+        
+    }
+}
